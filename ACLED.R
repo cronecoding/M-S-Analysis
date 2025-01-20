@@ -3,6 +3,8 @@ library(acled.api)
 #Armed Conflict Location & Event Data Project (ACLED); www.acleddata.com
 Sys.setenv(ACLED_EMAIL_ADDRESS = "becky.aza.kimble@gmail.com")
 Sys.setenv(ACLED_ACCESS_KEY = "pMIALd145*tGPs1UEOx8")
+
+
 # Retrieve ACLED data for specified regions and date range
 acled_data <- acled.api(
   email.address = Sys.getenv("ACLED_EMAIL_ADDRESS"),
